@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Larec</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+	<meta name="theme-color" content="#000000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+   
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <header class="header">
+		<div class="top">
+			<div class="container top__container">
+				<h1 class="top__about">Сеть ювелирных магазинов ЛАРЕЦ<br>г. Владивосток</h1>
+				<div class="top__logo">
+				</div>
+				<div class="top__contacts top-contacts">
+					<a href="tel:84232795555" title="Позвонить" class="top-contacts__tel">8 (423) 279-55-55</a>
+					<div class="top-contacts__time">c 10:00 до 19:00</div>
+					<button href="#" class="btn btn_white btn_block">Заказать обратный звонок</button>
+				</div>
+			</div>
+		</div>
+        <nav class="nav">
+        	<a href="#" title="Главная" class="nav__item">Главная</a>
+        	<a href="#" title="Акции" class="nav__item">Акции</a>
+        	<a href="#" title="Клубная карта" class="nav__item">Клубная карта</a>
+        	<a href="#" title="Подарочный сертификат" class="nav__item">Подарочный сертификат</a>
+        	<a href="#" title="Где купить?" class="nav__item">Где купить?</a>
+        </nav>
+    </header>
+<!--
+	Для десктопа: 
+	Блоку .brand-top в качестве фона пихаем фоновое изображение без логотипа.
+	А в блок .brand-top__left-block засовываем логотип с классом .brand-top__logo
+	
+	Для мобильных устройств:
+	Пихаем в блок .brand-top__left-block картинку со всеми логотипами 
+	и классом .brand-top__banner-mobile
+   
+   -->
+    <div class="brand-top" style="background-image: url(img/banner.jpg)">
+    	<div class="brand-top__left-block">
+    		<img src="img/banner-mobile.jpg" class="brand-top__banner-mobile" alt="">
+    		<img src="img/akvamarin-logo.png" class="brand-top__logo" alt="">
+    	</div>
+    	<div class="brand-top__right-block">
+    		<a href="#" class="brand-top__link" title="Каталог">
+				<img src="img/brand-link-1.jpg" alt="Каталог">
+			</a>
+    		<a href="#" class="brand-top__link" title="Кольцо">
+				<img src="img/brand-link-2.jpg" alt="Кольцо">
+			</a>
+    	</div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+        	<div class="brand-description">
+        		<p class="brand-description__title">Выбирая из бесконечных комбинаций огранки, каратности , цвета и частоты камня
+найдите свой единственный и неповторимый бриллиант.</p>
+       			<div class="brand-description__bg">Ювелирная сеть ЛАРЕЦ гарантирует подлинность этих драгоценных камней с помощью сертификата, подтверждающего абсолютное качество и уникальность изделия. На камнях более 0,5 карат наносится номер международного сертификата, который является дополнительной гарантией качества.</div>
+       			<p>Вечные, элегантные и изысканные  украшения с одиночным крупным бриллиантом 
+– ювелирные изделия на всю жизнь. </p>
+        	</div>
+        </div>
+    </div>
+    <footer class="footer">
+    	<div class="container">
+    		<div class="bottom">
+    			<div class="bottom-contacts">
+					<a href="tel:84232795555" title="Позвонить" class="bottom-contacts__tel">8 (423) 279-55-55</a>
+					<div class="bottom-contacts__city">г.Владивосток</div>
+					<button href="#" class="btn btn_black btn_block">Заказать обратный звонок</button>
+				</div>
+				<a href="#" title="Разработка сайта" class="dev">
+					<div class="dev__name">РАЗРАБОТКА САЙТА</div>
+					<div class="dev__logo">
+						<img src="img/dev-logo.png" alt="">
+					</div>
+				</a>
+    		</div>
+    		<div class="copyright">© “LARECGOLD” 2017.</div>
+    	</div>
+    </footer>
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>

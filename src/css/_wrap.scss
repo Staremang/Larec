@@ -1,0 +1,16 @@
+@if $enable-space-filling {
+	html,
+	body {
+	  height: 100%;
+	}
+	
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        width: 100%;
+        flex: 1 0 auto;
+		flex-shrink: 0;
+    }
+}

@@ -1,0 +1,36 @@
+// Options
+
+$enable-grid-classes:       true !default;
+
+// Всегда прижатый к низу страницы подвал
+$enable-space-filling:      true !default;
+
+
+// Fonts
+
+$font-list: (
+  1: ('Museo Sans Cyrl', 'MuseoSansCyrl-100', 100, normal),
+  2: ('Museo Sans Cyrl', 'MuseoSansCyrl-300', 300, normal),
+  3: ('Museo Sans Cyrl', 'MuseoSansCyrl-500', 500, normal),
+  4: ('Museo Sans Cyrl', 'MuseoSansCyrl-700', 700, normal),
+  5: ('Museo Sans Cyrl', 'MuseoSansCyrl-900', 900, normal)
+) !default;
+
+$font-light: 300;
+
+
+// Links
+
+$link-color:            #0275d8 !default;
+$link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+// Base
+
+$font-family-base:    'Museo Sans Cyrl', sans-serif;
+$font-size-base:      14px;
+$font-weight-base:    300;
+$line-height-base:    16px;
+$body-color:          black;
+$body-bg:             white;

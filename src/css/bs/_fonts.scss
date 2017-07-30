@@ -1,0 +1,16 @@
+@mixin make-fonts($name, $url-name, $weight, $style) {
+    @font-face {
+        font-family: $name;
+        src: url('../../fonts/#{$url-name}.eot');
+        src: url('../../fonts/#{$url-name}.eot?#iefix') format('embedded-opentype'),
+            url('../../fonts/#{$url-name}.woff') format('woff'),
+            url('../../fonts/#{$url-name}.ttf') format('truetype'),
+            url('../../fonts/#{$url-name}.svg##{$url-name}') format('svg');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@each $font-name in map-keys($font-list) {
+  @include make-fonts(nth(map-get($font-list, $font-name), 1), nth(map-get($font-list, $font-name), 2), nth(map-get($font-list, $font-name), 3) ,nth(map-get($font-list, $font-name), 4));
+}
