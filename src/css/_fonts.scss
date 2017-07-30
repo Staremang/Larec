@@ -1,11 +1,11 @@
 @mixin make-fonts($name, $url-name, $weight, $style) {
     @font-face {
         font-family: $name;
-        src: url('../../fonts/#{$url-name}.eot');
-        src: url('../../fonts/#{$url-name}.eot?#iefix') format('embedded-opentype'),
-            url('../../fonts/#{$url-name}.woff') format('woff'),
-            url('../../fonts/#{$url-name}.ttf') format('truetype'),
-            url('../../fonts/#{$url-name}.svg##{$url-name}') format('svg');
+        src: url('#{$def-url}fonts/#{$url-name}.eot');
+        src: url('#{$def-url}fonts/#{$url-name}.eot?#iefix') format('embedded-opentype'),
+            url('#{$def-url}fonts/#{$url-name}.woff') format('woff'),
+            url('#{$def-url}fonts/#{$url-name}.ttf') format('truetype'),
+            url('#{$def-url}fonts/#{$url-name}.svg##{$url-name}') format('svg');
         font-weight: $weight;
         font-style: $style;
     }

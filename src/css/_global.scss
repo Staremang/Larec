@@ -113,7 +113,7 @@ img {
 		}
 	}
 	&__logo {
-		background: url(../../img/logo.png) center no-repeat;
+		background: url(#{$def-url}img/logo.png) center no-repeat;
 		background-size: contain;
 		
 		left: 0;
@@ -398,14 +398,14 @@ img {
 	}
 }
 .brand-description {
-	font-family: 'OfficinaSerifBookC', serif;
+	font-family: $font-family-serif;
 	text-align: center;
 	font-size: 16px;
 	line-height: 26px;
 	margin: 45px 0 40px;
 	&:before, &:after {
 		content: '';
-		background: url(../../img/hr.svg) center no-repeat;
+		background: url(#{$def-url}img/hr.svg) center no-repeat;
 		background-size: contain;
 		height: 16px;
 		width: 100%;
@@ -511,7 +511,7 @@ img {
 }
 
 .card-wrapper {
-	background: #f9f9f9 url(../../img/card-bg.png);
+	background: #f9f9f9 url(#{$def-url}img/card-bg.png);
 }
 .card-container {
 	background: white;
@@ -669,7 +669,7 @@ img {
 		cursor: pointer;
 		&:after {
 			content: '';
-			background: url('../../img/arrow-down.svg') center no-repeat #dadada;
+			background: url('#{$def-url}img/arrow-down.svg') center no-repeat #dadada;
 			height: 100%;
 			width: 46px;
 			position: absolute;

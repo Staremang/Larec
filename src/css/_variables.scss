@@ -13,10 +13,13 @@ $font-list: (
   2: ('Museo Sans Cyrl', 'MuseoSansCyrl-300', 300, normal),
   3: ('Museo Sans Cyrl', 'MuseoSansCyrl-500', 500, normal),
   4: ('Museo Sans Cyrl', 'MuseoSansCyrl-700', 700, normal),
-  5: ('Museo Sans Cyrl', 'MuseoSansCyrl-900', 900, normal)
+  5: ('Museo Sans Cyrl', 'MuseoSansCyrl-900', 900, normal),
+  6: ('OfficinaSerifBookC', 'OfficinaSerifBookC', normal, normal),
+  7: ('OfficinaSerifBookC', 'OfficinaSerifBookC-Italic', normal, italic)
 ) !default;
 
 $font-light: 300;
+$def-url: "../";
 
 
 // Links
@@ -28,9 +31,10 @@ $link-hover-decoration: underline !default;
 
 // Base
 
-$font-family-base:    'Museo Sans Cyrl', sans-serif;
-$font-size-base:      14px;
-$font-weight-base:    300;
-$line-height-base:    16px;
-$body-color:          black;
-$body-bg:             white;
+$font-family-base:		'Museo Sans Cyrl', sans-serif;
+$font-family-serif:		'OfficinaSerifBookC', serif;
+$font-size-base:		14px;
+$font-weight-base:		300;
+$line-height-base:		16px;
+$body-color:			black;
+$body-bg:				white;

@@ -536,15 +536,19 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; -ms-overflow-styl
   .offset-xl-10 { margin-left: 83.33333%; }
   .offset-xl-11 { margin-left: 91.66667%; } }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../../fonts/MuseoSansCyrl-100.eot"); src: url("../../fonts/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../../fonts/MuseoSansCyrl-100.ttf") format("truetype"), url("../../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100") format("svg"); font-weight: 100; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-100.eot"); src: url("../fonts/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../fonts/MuseoSansCyrl-100.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100") format("svg"); font-weight: 100; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../../fonts/MuseoSansCyrl-300.eot"); src: url("../../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../../fonts/MuseoSansCyrl-300.ttf") format("truetype"), url("../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300") format("svg"); font-weight: 300; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-300.eot"); src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300") format("svg"); font-weight: 300; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../../fonts/MuseoSansCyrl-500.eot"); src: url("../../fonts/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCyrl-500.woff") format("woff"), url("../../fonts/MuseoSansCyrl-500.ttf") format("truetype"), url("../../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500") format("svg"); font-weight: 500; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-500.eot"); src: url("../fonts/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCyrl-500.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500") format("svg"); font-weight: 500; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../../fonts/MuseoSansCyrl-700.eot"); src: url("../../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../../fonts/MuseoSansCyrl-700.ttf") format("truetype"), url("../../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700") format("svg"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-700.eot"); src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700") format("svg"); font-weight: 700; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../../fonts/MuseoSansCyrl-900.eot"); src: url("../../fonts/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCyrl-900.woff") format("woff"), url("../../fonts/MuseoSansCyrl-900.ttf") format("truetype"), url("../../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900") format("svg"); font-weight: 900; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-900.eot"); src: url("../fonts/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCyrl-900.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900") format("svg"); font-weight: 900; font-style: normal; }
+
+@font-face { font-family: "OfficinaSerifBookC"; src: url("../fonts/OfficinaSerifBookC.eot"); src: url("../fonts/OfficinaSerifBookC.eot?#iefix") format("embedded-opentype"), url("../fonts/OfficinaSerifBookC.woff") format("woff"), url("../fonts/OfficinaSerifBookC.ttf") format("truetype"), url("../fonts/OfficinaSerifBookC.svg#OfficinaSerifBookC") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "OfficinaSerifBookC"; src: url("../fonts/OfficinaSerifBookC-Italic.eot"); src: url("../fonts/OfficinaSerifBookC-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/OfficinaSerifBookC-Italic.woff") format("woff"), url("../fonts/OfficinaSerifBookC-Italic.ttf") format("truetype"), url("../fonts/OfficinaSerifBookC-Italic.svg#OfficinaSerifBookC-Italic") format("svg"); font-weight: normal; font-style: italic; }
 
 /** Owl Carousel v2.2.1 Copyright 2013-2017 David Deutsch Licensed under  () */
 /* Owl Carousel - Core */
@@ -594,52 +598,6 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; -ms-overflow-styl
 
 .owl-carousel .owl-item img.owl-lazy { -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
 
-/* Owl Carousel - Video Plugin */
-/*
-.owl-carousel .owl-video-wrapper {
-	position: relative;
-	height: 100%;
-	background: #000; 
-}
-
-.owl-carousel .owl-video-play-icon {
-	position: absolute;
-	height: 80px;
-	width: 80px;
-	left: 50%;
-	top: 50%;
-	margin-left: -40px;
-	margin-top: -40px;
-	background: url("owl.video.play.png") no-repeat;
-	cursor: pointer;
-	z-index: 1;
-	-webkit-backface-visibility: hidden;
-	transition: transform 100ms ease; 
-}
-
-.owl-carousel .owl-video-play-icon:hover {
-  -ms-transform: scale(1.3, 1.3);
-      transform: scale(1.3, 1.3); }
-
-.owl-carousel .owl-video-playing .owl-video-tn,
-.owl-carousel .owl-video-playing .owl-video-play-icon {
-  display: none; }
-
-.owl-carousel .owl-video-tn {
-  opacity: 0;
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  transition: opacity 400ms ease; }
-
-.owl-carousel .owl-video-frame {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  width: 100%; }
-
-*/
 .owl-theme .owl-nav .disabled { opacity: 0.5; cursor: default; }
 
 .owl-theme .owl-nav.disabled + .owl-dots { margin-top: 10px; }
@@ -652,9 +610,9 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; -ms-overflow-styl
 
 @media (min-width: 1240px) { .owl-theme .owl-nav { top: 476px; } }
 
-.owl-theme .owl-nav .owl-next { cursor: pointer; float: right; background: url(../../img/btn-right.png) no-repeat center; width: 49px; height: 49px; }
+.owl-theme .owl-nav .owl-next { cursor: pointer; float: right; background: url(../img/btn-right.png) no-repeat center; width: 49px; height: 49px; }
 
-.owl-theme .owl-nav .owl-prev { cursor: pointer; float: left; background: url(../../img/btn-left.png) no-repeat center; width: 49px; height: 49px; }
+.owl-theme .owl-nav .owl-prev { cursor: pointer; float: left; background: url(../img/btn-left.png) no-repeat center; width: 49px; height: 49px; }
 
 .owl-theme .owl-dots { text-align: center; -webkit-tap-highlight-color: transparent; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); position: absolute; left: 0; right: 0; margin: 8px auto; }
 
@@ -710,7 +668,7 @@ img { max-width: 100%; }
 
 @media (min-width: 1240px) { .top__about { font-size: 20px; line-height: 26px; } }
 
-.top__logo { background: url(../../img/logo.png) center no-repeat; background-size: contain; left: 0; right: 0; top: 0; margin: 0 auto; height: 100%; width: 202px; }
+.top__logo { background: url(../img/logo.png) center no-repeat; background-size: contain; left: 0; right: 0; top: 0; margin: 0 auto; height: 100%; width: 202px; }
 
 @media (min-width: 576px) { .top__logo { position: absolute; } }
 
@@ -804,9 +762,9 @@ img { max-width: 100%; }
 
 .brand-top__link:first-child { border-bottom: 1px solid black; }
 
-.brand-description { font-family: 'OfficinaSerifBookC', serif; text-align: center; font-size: 16px; line-height: 26px; margin: 45px 0 40px; }
+.brand-description { font-family: "OfficinaSerifBookC", serif; text-align: center; font-size: 16px; line-height: 26px; margin: 45px 0 40px; }
 
-.brand-description:before, .brand-description:after { content: ''; background: url(../../img/hr.svg) center no-repeat; background-size: contain; height: 16px; width: 100%; display: block; max-width: 100%; margin: 20px 0; }
+.brand-description:before, .brand-description:after { content: ''; background: url(../img/hr.svg) center no-repeat; background-size: contain; height: 16px; width: 100%; display: block; max-width: 100%; margin: 20px 0; }
 
 .brand-description__title { font-size: 20px; }
 
@@ -833,7 +791,7 @@ img { max-width: 100%; }
 
 .cert-top__price small { font-size: 16px; }
 
-.card-wrapper { background: #f9f9f9 url(../../img/card-bg.png); }
+.card-wrapper { background: #f9f9f9 url(../img/card-bg.png); }
 
 .card-container { background: white; }
 
@@ -880,7 +838,7 @@ img { max-width: 100%; }
 
 .card-dropdown__label { font-size: 16px; line-height: 1.25; padding: 13px 59px 13px 13px; color: #22554c; font-weight: 500; background: #ececec; display: block; width: 100%; z-index: 2; margin: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; position: relative; cursor: pointer; }
 
-.card-dropdown__label:after { content: ''; background: url("../../img/arrow-down.svg") center no-repeat #dadada; height: 100%; width: 46px; position: absolute; right: 0; top: 0; }
+.card-dropdown__label:after { content: ''; background: url("../img/arrow-down.svg") center no-repeat #dadada; height: 100%; width: 46px; position: absolute; right: 0; top: 0; }
 
 .card-dropdown__input:checked + .card-dropdown__section .card-dropdown__content { position: static; visibility: visible; z-index: 1; -webkit-transform: none; -ms-transform: none; transform: none; -webkit-transition: -webkit-transform 300ms ease; transition: -webkit-transform 300ms ease; -o-transition: transform 300ms ease; transition: transform 300ms ease; transition: transform 300ms ease, -webkit-transform 300ms ease; }
 
