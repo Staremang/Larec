@@ -18,6 +18,7 @@ img {
 	outline: 0;
 	&:hover, &:active {
 		background: rgba(255, 255, 255, 0.1);
+		text-decoration: none;
 	}
 	&_white {
 		border-radius: 4px;
@@ -34,6 +35,20 @@ img {
 	&_block {
 		display: block;
 		width: 100%;
+	}
+	&_serif-black {
+		border-color: black;
+		color: black;
+		font-family: $font-family-serif;
+		display: inline-block;
+		font-size: 16px;
+		padding: 10px 41px 8px;
+		text-transform: uppercase;
+		&:hover, &:focus {
+			text-decoration: none;
+			color: black;
+			background: rgba(0, 0, 0, 0.1);
+		}
 	}
 }
 
@@ -442,17 +457,6 @@ img {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
