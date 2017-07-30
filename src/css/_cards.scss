@@ -1,0 +1,277 @@
+// Hero container
+//
+// Заглавный блок на всю ширину для страниц "Подарочный сертификат" и "Клубная карта"
+.top-container {
+	width: 100%;
+//	height: 96vw;
+	position: relative;
+	flex-shrink: 0;
+	
+	padding-top: 127px;
+	background-size: cover;
+	background-position: center;
+
+	@media (min-width: 576px) {
+//		height: 520px;
+	}
+	@media (min-width: 768px) {
+//		height: 480px;
+	}
+	@media (min-width: 992px) {
+//			height: 516px;
+		padding-top: 172px;
+//		height: 640px;
+	}
+
+	@media (min-width: 1240px) {
+		padding-top: 202px;
+//		height: 800px;
+	}
+}
+
+
+// Container
+// 
+// Общий контейнер, содержащий контент на страницах "Подарочный сертификат" и "Клубная карта"
+.card-wrapper {
+	background: #f9f9f9 url(#{$def-url}img/card-bg.png);
+}
+.card-container {
+	background: white;
+}
+
+
+
+// Title
+// 
+// Заголовки страниц "Подарочный сертификат" и "Клубная карта"
+.card-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 1.15;
+	border: 4px solid #2f7569;
+	color: #173f37;
+	text-align: center;
+	padding: 15px 11px;
+	margin: 20px 0;
+	
+	
+	@media (min-width: 768px) {
+		font-size: 26px;
+		padding: 31px 23px;
+		margin: 40px 0;
+	}
+}
+
+
+// Блок с простым текстом для страницы "Подарочный сертификат"
+.card-info {
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.375;
+	padding: 0 10px;
+	
+	@media (min-width: 768px) {
+		font-size: 16px;
+		padding: 0 40px;
+	}
+}
+
+// Блок с перечеслением привилегий для страницы "Клубная карта"
+.card-list {
+	&__img {
+		padding: 0 30px;
+		flex-shrink: 0;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	&__list {
+		padding: 0 10px;
+		font-size: 16px;
+		line-height: 1.25;
+		color: #22554c;
+		p {
+			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	@media (min-width: 992px) {
+
+		display: flex;
+		align-items: center;
+		&__img {
+			margin-bottom: 0;
+		}
+		&__list {
+			padding-left: 65px;
+			p {
+				margin-bottom: 20px; 
+			}
+		}
+	}
+}
+
+
+
+
+// Forms
+//
+// Формы для страниц "Подарочный сертификат" и "Клубная карта"
+.card-form {
+	padding: 15px 11px 15px;
+	border: 4px solid #793688;
+	margin: 20px 0;
+	
+	@media (min-width: 768px) {
+		padding: 31px 23px 29px;
+		margin: 40px 0;
+	}
+	&__title {
+		text-transform: uppercase;
+		font-size: 16px;
+		line-height: 1.15;
+		color: #5a2465;
+		text-align: center;
+		margin-bottom: 7px;
+		
+		@media (min-width: 768px) {
+			font-size: 26px;
+			margin-bottom: 15px;
+		}
+	}
+	&__input {
+		display: block;
+		width: 100%;
+		background: #6b2f78;
+		border: 0;
+		color: white;
+		
+		line-height: 20px;
+		padding: 10px 20px;
+		font-size: 12px;
+		
+		margin: 10px 0;
+		
+		@include placeholder {
+			color: #ac80b6;
+			text-transform: uppercase;
+			font-weight: 100;
+			letter-spacing: 4px;
+		}
+		
+		@media (min-width: 768px) {
+			line-height: 30px;
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+	}
+	&__btn {
+		background: #22554c;
+		border: 4px solid #2f7569;
+		color: white;
+		display: block;
+		width: 100%;
+		cursor: pointer; 
+		letter-spacing: 3.5px;
+		font-weight: 500;
+		margin: 10px 0;
+		
+		line-height: 20px;
+		padding: 6px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		
+		@media (min-width: 768px) {	
+			letter-spacing: 3.5px;
+			line-height: 30px;
+		}
+	}
+	&__small {
+		color: #793688;
+		text-transform: uppercase;
+		font-size: 10px;
+		line-height: 1;
+		margin-top: 7px;
+		
+		
+		@media (min-width: 768px) {
+			font-size: 12px;
+			margin-top: 15px;
+		}
+	}
+}
+
+
+
+
+// Dropdown
+//
+// Выпадающее меню с информацией для страницы "Подарочные сертификаты"
+.card-dropdown-container {
+	padding-top: 21px;
+}
+.card-dropdown {
+	margin-bottom: 10px;
+	&__content {
+		font-size: 14px;
+		line-height: 20px;
+        margin:0;
+        overflow: hidden;
+		padding: 13px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+        z-index: -1;
+        transform: translateY(-100px)
+	}
+	&__input {
+		display: none;
+	}
+	&__section {
+		background: white;
+        overflow: hidden;
+        pointer-events: auto
+	}
+	&__label {
+		font-size: 12px;
+		line-height: 1.25;
+		padding: 13px 59px 13px 13px;
+		
+		color: #22554c;
+		font-weight: 500;
+		background: #ececec;
+		display: block;
+		width: 100%;
+		z-index: 2;
+		margin: 0;
+        user-select: none;
+		position: relative;
+		cursor: pointer;
+		&:after {
+			content: '';
+			background: url('#{$def-url}img/arrow-down.svg') center no-repeat #dadada;
+			height: 100%;
+			width: 46px;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		
+		@media (min-width: 768px) {
+			font-size: 16px;
+//			line-height: 1.25;
+//			padding: 13px 59px 13px 13px;
+		}
+	}
+}
+.card-dropdown__input:checked+.card-dropdown__section .card-dropdown__content {
+	position: static;
+	visibility: visible;
+	z-index: 1;
+	transform: none;
+	transition: transform 300ms ease;
+}

@@ -1,0 +1,42 @@
+
+.cert-top {
+	&__img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	&__info {
+		text-align: center;
+		margin: 87px 0 20px;
+		
+		@media (max-width: 576px) {
+			display: none;
+		}
+	}
+	&__price {
+		color: #6a2c82;
+		background: #f9f9f9;
+		border-radius: 30px;
+		display: inline-block;
+		font-size: 18px;
+		line-height: 1;
+		padding: 13px 40px;
+		small {
+			font-size: 47%;
+		}
+	}
+	
+		
+	@media (min-width: 768px) {
+		&__img {
+			margin-top: 65px;
+		}
+		&__price {
+			font-size: 26px;
+		}
+	}
+	@media (min-width: 992px) {
+		&__price {
+			font-size: 34px;
+		}
+	}
+}

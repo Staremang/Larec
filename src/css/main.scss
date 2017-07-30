@@ -2,6 +2,11 @@
  * Front-end by Roman Meshcheryakov | 2017
  * https://canonical.site
  */
+@import "mixins/_breakpoints.scss";
+@import "mixins/_clearfix.scss";
+@import "mixins/_grid-framework.scss";
+@import "mixins/_grid.scss";
+@import "mixins/_placeholder.scss";
 
 @import "bs/_variables.scss";
 @import "_variables.scss";
@@ -14,4 +19,15 @@
 @import "_carusel.scss";
 
 @import "_wrap.scss";
-@import "_global.scss"; 
+
+
+// Header and Footer
+
+@import "_global.scss";
+
+
+// Page "Клубная карта" and "Подарочный сертификат"
+
+@import "_cards.scss";
+@import "_club-card.scss";
+@import "_cert.scss";

@@ -1,0 +1,36 @@
+.club-card-top {
+	&__img {
+//		margin-left: -20px;
+		margin-top: 15px;
+	}
+	&__title {
+		font-size: 28px;
+		color: rgb(124, 45, 132);
+		text-transform: uppercase;
+		line-height: 1.286;
+		font-weight: 700;
+		
+		border-left: 4px solid #9434a6;
+		padding-left: 30px;
+		margin-bottom: 54px;
+		margin-top: 24px;
+		
+		display: none;
+//		&:before {
+//			content: '';
+//			position: absolute;
+//			width: 4px;
+//			height: 100
+//		}
+	}
+	
+	@media (min-width: 768px) {
+		&__img {
+			margin-left: -20px;
+			margin-top: 15px;
+		}
+		&__title {
+			display: block;
+		}
+	}
+}

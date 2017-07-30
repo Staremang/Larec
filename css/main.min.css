@@ -720,22 +720,6 @@ img { max-width: 100%; }
 
 @media (min-width: 768px) { .home-slider-b__mobile { display: none; } }
 
-.home-slider__item { min-height: 300px; background-position: center; background-size: cover; padding-top: 157px; padding-bottom: 40px; }
-
-@media (min-width: 768px) { .home-slider__item { height: 487px; padding-top: 169px; } }
-
-@media (min-width: 992px) { .home-slider__item { height: 680px; padding-top: 250px; } }
-
-@media (min-width: 1240px) { .home-slider__item { height: 800px; } }
-
-.home-slider__img { width: 100%; display: none; }
-
-@media (min-width: 768px) { .home-slider__img { display: block; } }
-
-.home-slider__img-mobile { width: 100%; }
-
-@media (min-width: 768px) { .home-slider__img-mobile { display: none; } }
-
 .brand-top { padding-top: 127px; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; }
 
 @media (max-width: 767px) { .brand-top { background-image: none !important; } }
@@ -766,81 +750,14 @@ img { max-width: 100%; }
 
 .brand-description:before, .brand-description:after { content: ''; background: url(../img/hr.svg) center no-repeat; background-size: contain; height: 16px; width: 100%; display: block; max-width: 100%; margin: 20px 0; }
 
-.brand-description__title { font-size: 20px; }
+.brand-description__title { font-size: 20px; max-width: 860px; left: 0; right: 0; margin: auto; }
+
+.brand-description__subtitle { max-width: 720px; left: 0; right: 0; margin: auto; }
 
 .brand-description__bg { background: #f7f5f4; font-style: italic; padding: 18px; margin: 15px 0; }
 
 @media (min-width: 768px) { .brand-description { font-size: 20px; line-height: 36px; }
   .brand-description__title { font-size: 24px; } }
-
-.top-container { width: 100%; position: relative; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; padding-top: 127px; background-size: cover; background-position: center; }
-
-@media (min-width: 992px) { .top-container { padding-top: 172px; } }
-
-@media (min-width: 1240px) { .top-container { padding-top: 202px; } }
-
-.club-card-top__img { margin-left: -20px; margin-top: 15px; }
-
-.club-card-top__title { font-size: 28px; color: #7c2d84; text-transform: uppercase; line-height: 1.286; font-weight: 700; border-left: 4px solid #9434a6; padding-left: 30px; margin-bottom: 54px; margin-top: 24px; }
-
-.cert-top__img { margin-top: 65px; }
-
-.cert-top__info { text-align: center; margin: 87px 0 20px; }
-
-.cert-top__price { color: #6a2c82; background: #f9f9f9; border-radius: 30px; display: inline-block; font-size: 34px; line-height: 1; padding: 13px 40px; }
-
-.cert-top__price small { font-size: 16px; }
-
-.card-wrapper { background: #f9f9f9 url(../img/card-bg.png); }
-
-.card-container { background: white; }
-
-.card-title { text-transform: uppercase; font-size: 20px; line-height: 1.15; border: 4px solid #2f7569; color: #173f37; text-align: center; padding: 31px 23px; margin: 40px 0; }
-
-@media (min-width: 768px) { .card-title { font-size: 26px; } }
-
-.card-list__img { padding: 0 30px; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; text-align: center; margin-bottom: 20px; }
-
-.card-list__list { padding: 0 10px; font-size: 16px; line-height: 1.25; color: #22554c; }
-
-.card-list__list p { margin-bottom: 10px; }
-
-.card-list__list p:last-child { margin-bottom: 0; }
-
-@media (min-width: 992px) { .card-list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
-  .card-list__img { margin-bottom: 0; }
-  .card-list__list { padding-left: 65px; }
-  .card-list__list p { margin-bottom: 20px; } }
-
-.card-form { padding: 31px 23px 29px; border: 4px solid #793688; margin: 40px 0; }
-
-.card-form__title { text-transform: uppercase; font-size: 26px; line-height: 1.15; color: #5a2465; text-align: center; margin-bottom: 15px; }
-
-.card-form__input { display: block; width: 100%; background: #6b2f78; border: 0; line-height: 30px; padding: 10px 20px; color: white; font-size: 14px; margin: 10px 0; }
-
-.card-form__input::-webkit-input-placeholder { color: #ac80b6; text-transform: uppercase; font-weight: 100; letter-spacing: 4px; }
-
-.card-form__btn { line-height: 30px; padding: 6px; background: #22554c; border: 4px solid #2f7569; color: white; display: block; width: 100%; cursor: pointer; letter-spacing: 4px; font-weight: 500; margin: 10px 0; }
-
-.card-form__small { color: #793688; text-transform: uppercase; font-size: 12px; line-height: 1; margin-top: 15px; }
-
-.card-info { text-align: center; font-size: 16px; line-height: 1.375; padding: 0 40px; }
-
-.card-dropdown-container { padding-top: 21px; }
-
-.card-dropdown { margin-bottom: 10px; }
-
-.card-dropdown__content { font-size: 14px; line-height: 20px; margin: 0; overflow: hidden; padding: 13px; position: absolute; top: 100%; left: 0; width: 100%; visibility: hidden; z-index: -1; -webkit-transform: translateY(-100px); -ms-transform: translateY(-100px); transform: translateY(-100px); }
-
-.card-dropdown__input { display: none; }
-
-.card-dropdown__section { background: white; overflow: hidden; pointer-events: auto; }
-
-.card-dropdown__label { font-size: 16px; line-height: 1.25; padding: 13px 59px 13px 13px; color: #22554c; font-weight: 500; background: #ececec; display: block; width: 100%; z-index: 2; margin: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; position: relative; cursor: pointer; }
-
-.card-dropdown__label:after { content: ''; background: url("../img/arrow-down.svg") center no-repeat #dadada; height: 100%; width: 46px; position: absolute; right: 0; top: 0; }
-
-.card-dropdown__input:checked + .card-dropdown__section .card-dropdown__content { position: static; visibility: visible; z-index: 1; -webkit-transform: none; -ms-transform: none; transform: none; -webkit-transition: -webkit-transform 300ms ease; transition: -webkit-transform 300ms ease; -o-transition: transform 300ms ease; transition: transform 300ms ease; transition: transform 300ms ease, -webkit-transform 300ms ease; }
 
 .footer { background: #f0edee; }
 
@@ -867,3 +784,102 @@ img { max-width: 100%; }
 .copyright { text-align: center; border-top: 1px solid #808080; font-size: 14px; line-height: 16px; padding: 20px 0; }
 
 @media (min-width: 768px) { .copyright { font-size: 16px; line-height: 18px; padding: 37px 0; } }
+
+.top-container { width: 100%; position: relative; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; padding-top: 127px; background-size: cover; background-position: center; }
+
+@media (min-width: 992px) { .top-container { padding-top: 172px; } }
+
+@media (min-width: 1240px) { .top-container { padding-top: 202px; } }
+
+.card-wrapper { background: #f9f9f9 url(../img/card-bg.png); }
+
+.card-container { background: white; }
+
+.card-title { text-transform: uppercase; font-size: 16px; line-height: 1.15; border: 4px solid #2f7569; color: #173f37; text-align: center; padding: 15px 11px; margin: 20px 0; }
+
+@media (min-width: 768px) { .card-title { font-size: 26px; padding: 31px 23px; margin: 40px 0; } }
+
+.card-info { text-align: center; font-size: 14px; line-height: 1.375; padding: 0 10px; }
+
+@media (min-width: 768px) { .card-info { font-size: 16px; padding: 0 40px; } }
+
+.card-list__img { padding: 0 30px; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; text-align: center; margin-bottom: 20px; }
+
+.card-list__list { padding: 0 10px; font-size: 16px; line-height: 1.25; color: #22554c; }
+
+.card-list__list p { margin-bottom: 10px; }
+
+.card-list__list p:last-child { margin-bottom: 0; }
+
+@media (min-width: 992px) { .card-list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+  .card-list__img { margin-bottom: 0; }
+  .card-list__list { padding-left: 65px; }
+  .card-list__list p { margin-bottom: 20px; } }
+
+.card-form { padding: 15px 11px 15px; border: 4px solid #793688; margin: 20px 0; }
+
+@media (min-width: 768px) { .card-form { padding: 31px 23px 29px; margin: 40px 0; } }
+
+.card-form__title { text-transform: uppercase; font-size: 16px; line-height: 1.15; color: #5a2465; text-align: center; margin-bottom: 7px; }
+
+@media (min-width: 768px) { .card-form__title { font-size: 26px; margin-bottom: 15px; } }
+
+.card-form__input { display: block; width: 100%; background: #6b2f78; border: 0; color: white; line-height: 20px; padding: 10px 20px; font-size: 12px; margin: 10px 0; }
+
+.card-form__input::-webkit-input-placeholder { color: #ac80b6; text-transform: uppercase; font-weight: 100; letter-spacing: 4px; }
+
+.card-form__input:-moz-placeholder { color: #ac80b6; text-transform: uppercase; font-weight: 100; letter-spacing: 4px; }
+
+.card-form__input::-moz-placeholder { color: #ac80b6; text-transform: uppercase; font-weight: 100; letter-spacing: 4px; }
+
+.card-form__input:-ms-input-placeholder { color: #ac80b6; text-transform: uppercase; font-weight: 100; letter-spacing: 4px; }
+
+@media (min-width: 768px) { .card-form__input { line-height: 30px; padding: 10px 20px; font-size: 14px; } }
+
+.card-form__btn { background: #22554c; border: 4px solid #2f7569; color: white; display: block; width: 100%; cursor: pointer; letter-spacing: 3.5px; font-weight: 500; margin: 10px 0; line-height: 20px; padding: 6px; font-weight: 300; letter-spacing: 2px; }
+
+@media (min-width: 768px) { .card-form__btn { letter-spacing: 3.5px; line-height: 30px; } }
+
+.card-form__small { color: #793688; text-transform: uppercase; font-size: 10px; line-height: 1; margin-top: 7px; }
+
+@media (min-width: 768px) { .card-form__small { font-size: 12px; margin-top: 15px; } }
+
+.card-dropdown-container { padding-top: 21px; }
+
+.card-dropdown { margin-bottom: 10px; }
+
+.card-dropdown__content { font-size: 14px; line-height: 20px; margin: 0; overflow: hidden; padding: 13px; position: absolute; top: 100%; left: 0; width: 100%; visibility: hidden; z-index: -1; -webkit-transform: translateY(-100px); -ms-transform: translateY(-100px); transform: translateY(-100px); }
+
+.card-dropdown__input { display: none; }
+
+.card-dropdown__section { background: white; overflow: hidden; pointer-events: auto; }
+
+.card-dropdown__label { font-size: 12px; line-height: 1.25; padding: 13px 59px 13px 13px; color: #22554c; font-weight: 500; background: #ececec; display: block; width: 100%; z-index: 2; margin: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; position: relative; cursor: pointer; }
+
+.card-dropdown__label:after { content: ''; background: url("../img/arrow-down.svg") center no-repeat #dadada; height: 100%; width: 46px; position: absolute; right: 0; top: 0; }
+
+@media (min-width: 768px) { .card-dropdown__label { font-size: 16px; } }
+
+.card-dropdown__input:checked + .card-dropdown__section .card-dropdown__content { position: static; visibility: visible; z-index: 1; -webkit-transform: none; -ms-transform: none; transform: none; -webkit-transition: -webkit-transform 300ms ease; transition: -webkit-transform 300ms ease; -o-transition: transform 300ms ease; transition: transform 300ms ease; transition: transform 300ms ease, -webkit-transform 300ms ease; }
+
+.club-card-top__img { margin-top: 15px; }
+
+.club-card-top__title { font-size: 28px; color: #7c2d84; text-transform: uppercase; line-height: 1.286; font-weight: 700; border-left: 4px solid #9434a6; padding-left: 30px; margin-bottom: 54px; margin-top: 24px; display: none; }
+
+@media (min-width: 768px) { .club-card-top__img { margin-left: -20px; margin-top: 15px; }
+  .club-card-top__title { display: block; } }
+
+.cert-top__img { margin-top: 20px; margin-bottom: 20px; }
+
+.cert-top__info { text-align: center; margin: 87px 0 20px; }
+
+@media (max-width: 576px) { .cert-top__info { display: none; } }
+
+.cert-top__price { color: #6a2c82; background: #f9f9f9; border-radius: 30px; display: inline-block; font-size: 18px; line-height: 1; padding: 13px 40px; }
+
+.cert-top__price small { font-size: 47%; }
+
+@media (min-width: 768px) { .cert-top__img { margin-top: 65px; }
+  .cert-top__price { font-size: 26px; } }
+
+@media (min-width: 992px) { .cert-top__price { font-size: 34px; } }
