@@ -536,19 +536,19 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; -ms-overflow-styl
   .offset-xl-10 { margin-left: 83.33333%; }
   .offset-xl-11 { margin-left: 91.66667%; } }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-100.eot"); src: url("../fonts/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../fonts/MuseoSansCyrl-100.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100") format("svg"); font-weight: 100; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: local("Museo Sans Cyrl"), url("../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../fonts/MuseoSansCyrl-100.ttf") format("ttf"); font-weight: 100; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-300.eot"); src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300") format("svg"); font-weight: 300; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: local("Museo Sans Cyrl"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("ttf"); font-weight: 300; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-500.eot"); src: url("../fonts/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCyrl-500.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500") format("svg"); font-weight: 500; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: local("Museo Sans Cyrl"), url("../fonts/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCyrl-500.ttf") format("ttf"); font-weight: 500; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-700.eot"); src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700") format("svg"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: local("Museo Sans Cyrl"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("ttf"); font-weight: 700; font-style: normal; }
 
-@font-face { font-family: "Museo Sans Cyrl"; src: url("../fonts/MuseoSansCyrl-900.eot"); src: url("../fonts/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCyrl-900.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900") format("svg"); font-weight: 900; font-style: normal; }
+@font-face { font-family: "Museo Sans Cyrl"; src: local("Museo Sans Cyrl"), url("../fonts/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCyrl-900.ttf") format("ttf"); font-weight: 900; font-style: normal; }
 
-@font-face { font-family: "OfficinaSerifBookC"; src: url("../fonts/OfficinaSerifBookC.eot"); src: url("../fonts/OfficinaSerifBookC.eot?#iefix") format("embedded-opentype"), url("../fonts/OfficinaSerifBookC.woff") format("woff"), url("../fonts/OfficinaSerifBookC.ttf") format("truetype"), url("../fonts/OfficinaSerifBookC.svg#OfficinaSerifBookC") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "OfficinaSerifBookC"; src: local("OfficinaSerifBookC"), url("../fonts/OfficinaSerifBookC.woff") format("woff"), url("../fonts/OfficinaSerifBookC.ttf") format("ttf"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "OfficinaSerifBookC"; src: url("../fonts/OfficinaSerifBookC-Italic.eot"); src: url("../fonts/OfficinaSerifBookC-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/OfficinaSerifBookC-Italic.woff") format("woff"), url("../fonts/OfficinaSerifBookC-Italic.ttf") format("truetype"), url("../fonts/OfficinaSerifBookC-Italic.svg#OfficinaSerifBookC-Italic") format("svg"); font-weight: normal; font-style: italic; }
+@font-face { font-family: "OfficinaSerifBookC"; src: local("OfficinaSerifBookC"), url("../fonts/OfficinaSerifBookC-Italic.woff") format("woff"), url("../fonts/OfficinaSerifBookC-Italic.ttf") format("ttf"); font-weight: normal; font-style: italic; }
 
 /** Owl Carousel v2.2.1 Copyright 2013-2017 David Deutsch Licensed under  () */
 /* Owl Carousel - Core */
@@ -684,7 +684,7 @@ img { max-width: 100%; }
 
 @media (min-width: 576px) { .top__contacts { display: inherit; } }
 
-.top__container { height: 75px; }
+.top__container { height: 75px; margin-left: 0; margin-right: 0; }
 
 @media (min-width: 576px) { .top__container { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; } }
 
